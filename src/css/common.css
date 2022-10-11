@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding-left: 95px;
+  align-items: flex-start;
+  background-color: #fafafa;
+}
+.field {
+	width: 110px;
+	height: 150px;
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+}
+.value {
+  font-size: 70px;
+  font-weight: 700;
+  width: auto;
+  height: auto;
+}
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  width: auto;
+  height: auto;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  margin-left: 145px;
+}
+.datetime_block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px; 
+}
+.btn {
+font-size: 20px;
+}
