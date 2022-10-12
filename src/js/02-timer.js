@@ -52,6 +52,7 @@ flatpickr(inputRef, options);
 
 //действия при нажатии на кнопку Start
 btnStartRef.addEventListener('click', () => {
+  let timerId = null;
   timerId = setInterval(timerUpdate, 1000);
 })
 

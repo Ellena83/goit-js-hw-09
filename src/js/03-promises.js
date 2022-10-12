@@ -57,6 +57,7 @@ function onFormSubmit(evt) {
       });
     delay += step;
   }
+  evt.currentTarget.reset();
 }
 
 function createPromise(position, delay) {
